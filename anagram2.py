@@ -3,8 +3,7 @@
 
 def anagram(word1, word2):
 
-    if sorted(word1.lower()) == sorted(word2.lower()):
-	    return True
+    return sorted(word1.lower()) == sorted(word2.lower())
 
 print("Are these words anagrams of each other?")
 while True:
