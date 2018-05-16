@@ -1,9 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 
 def anagram(word1, word2):
 
     return sorted(word1.lower()) == sorted(word2.lower())
+
 
 print("Are these words anagrams of each other?")
 while True:
